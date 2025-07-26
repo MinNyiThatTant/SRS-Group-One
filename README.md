@@ -11,7 +11,7 @@ SRS is a web-based application designed to streamline the process of student reg
 
 # Laravel Implementation
 
-## Table of Contents
+## Contents
 1. [Overview](#overview)
 2. [Features](#features)
 3. [Installation](#installation)
@@ -24,9 +24,9 @@ SRS built with Laravel framework that handles both new and old student registrat
 
 ## Features <a name="features"></a>
 1. **Student Management**
-   - New student registration
-   - Returning student profile updates
-   - Student status tracking
+   - New student registration and profile
+   - Old student registration and profile
+   - Student status 
 
 2. **Academic Management**
    - Department creation and management
@@ -34,12 +34,11 @@ SRS built with Laravel framework that handles both new and old student registrat
    - Semester and academic year configuration
 
 3. **Administration**
-   - Teacher management
+   - Role management
    - Class scheduling
    - Registration approval workflow
-   - Grade management
 
-4. **Financial Tracking**
+4. **Financial Status**
    - Payment records
    - Financial status monitoring
 
