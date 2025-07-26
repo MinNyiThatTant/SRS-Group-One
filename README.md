@@ -1,5 +1,5 @@
 
-## About Student Registration System (SRS) created by E-service-Group(1/2025)
+## Student Registration System(SRS) created by E-service-Group(1/2025)
 
 SRS is a web-based application designed to streamline the process of student registration and course management for Technological University targeting WYTU(sample).
 
