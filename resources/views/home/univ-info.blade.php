@@ -39,15 +39,15 @@
 
     <!-- University Hero Section -->
     {{-- <section class="hero-bg py-5 position-relative"> --}}
-    <div class="container position-relative py-5">
+    <div class="container py-5 mt-4">
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <h1 class="display-4 fw-bold mb-4" style="color: aliceblue">{{ $universityInfo['name'] }}</h1>
                 <p class="lead mb-4" style="color: aliceblue">{{ $universityInfo['motto'] ?? 'Excellence in Education and Innovation' }}</p>
-                <a href="{{ route('contact') }}" class="btn btn-primary btn-lg px-4 me-2">
+                <a href="{{ route('home.contact') }}" class="btn btn-info btn-lg px-4 me-2">
                     <i class="bi bi-envelope"></i> Contact Us
                 </a>
-                <a href="{{ $universityInfo['website'] ?? '#' }}" class="btn btn-primary btn-lg px-4"
+                <a href="{{ $universityInfo['website'] ?? '#' }}" class="btn btn-info btn-lg px-4"
                     target="_blank">
                     <i class="bi bi-globe"></i> Visit Website
                 </a>
@@ -118,10 +118,3 @@
             </div>
         </div>
     </section>
-
-    @include('include.footer')
-
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous">
-    </script>

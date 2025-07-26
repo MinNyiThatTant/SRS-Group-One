@@ -1,8 +1,5 @@
 <?php
 
-use App\Http\Controllers\PremissionController;
-use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\RoleController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GlobalController;
 use App\Http\Controllers\HomeController;
@@ -16,7 +13,7 @@ Route::get('department',[HomeController::class, 'department'])->name('home.depar
 Route::get('courses',[HomeController::class, 'courses'])->name('home.courses');
 
 
-Route::get('/university-info', function() {
+Route::get('univ-info', function() {
     $universityInfo = [
             'name' => 'West Yangon Technological University',
             'motto' => 'Innovation Through Technology',
@@ -39,8 +36,8 @@ Route::get('/university-info', function() {
                 'Chemical'
             ]
         ];
-    return view('university_info', compact('universityInfo'));
-})->name('university-info');
+    return view('home.univ-info', compact('universityInfo'));
+})->name('home.univ-info');
 
 
 Route::get('contact',[HomeController::class, 'contact'])->name('home.contact');

@@ -74,99 +74,65 @@
             </div>
         </div>
 
-        <!-- Charts Section -->
-        <!-- Registration Trend Chart -->
-        <div class="col-lg-8 mb-4">
-            <div class="card border-0 shadow-sm">
-                <div class="card-header bg-white py-3">
-                    <h5 class="m-0 font-weight-bold">Registration Trend</h5>
-                </div>
-                <div class="card-body">
-                    <div class="chart-container">
-                        <canvas id="registrationTrendChart"></canvas>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Course Registration Chart -->
-        <div class="col-lg-4 mb-4">
-            <div class="card border-0 shadow-sm">
-                <div class="card-header bg-white py-3">
-                    <h5 class="m-0 font-weight-bold">Course Registration</h5>
-                </div>
-                <div class="card-body">
-                    <div class="chart-container">
-                        <canvas id="courseEnrollmentChart"></canvas>
-                    </div>
-                    <div class="mt-3 text-center small">
-                        <span class="mr-2"><i class="fas fa-circle text-primary"></i> Computer Science</span><br>
-                        <span class="mr-2"><i class="fas fa-circle text-success"></i> Business</span><br>
-                        <span class="mr-2"><i class="fas fa-circle text-info"></i> Engineering</span>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-- Recent Activity Section -->
-<div class="row">
-    <div class="col-lg-12">
-        <div class="card border-0 shadow-sm">
-            <div class="card-header bg-white py-3">
-                <h5 class="m-0 font-weight-bold">Recent Student Registrations</h5>
-            </div>
-            <div class="card-body">
-                <div class="table-responsive">
-                    <table class="table table-hover">
-                        <thead>
-                            <tr>
-                                <th>Student ID</th>
-                                <th>Name</th>
-                                <th>Program</th>
-                                <th>Date Registered</th>
-                                <th>Payment Status</th>
-                                <th>Action</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>ST2023-0124</td>
-                                <td>John Smith</td>
-                                <td>Computer Science</td>
-                                <td>May 15, 2023</td>
-                                <td><span class="status-badge bg-success text-white">Paid</span></td>
-                                <td><button class="btn btn-sm btn-primary">View</button></td>
-                            </tr>
-                            <tr>
-                                <td>ST2023-0125</td>
-                                <td>Sarah Johnson</td>
-                                <td>Business Admin</td>
-                                <td>May 16, 2023</td>
-                                <td><span class="status-badge bg-warning text-dark">Pending</span></td>
-                                <td><button class="btn btn-sm btn-primary">View</button></td>
-                            </tr>
-                            <tr>
-                                <td>ST2023-0126</td>
-                                <td>Michael Chen</td>
-                                <td>Electrical Eng</td>
-                                <td>May 17, 2023</td>
-                                <td><span class="status-badge bg-danger text-white">Overdue</span></td>
-                                <td><button class="btn btn-sm btn-primary">View</button></td>
-                            </tr>
-                            <tr>
-                                <td>ST2023-0127</td>
-                                <td>Emily Wilson</td>
-                                <td>Data Science</td>
-                                <td>May 18, 2023</td>
-                                <td><span class="status-badge bg-success text-white">Paid</span></td>
-                                <td><button class="btn btn-sm btn-primary">View</button></td>
-                            </tr>
-                        </tbody>
-                    </table>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-header bg-white py-3">
+                        <h5 class="m-0 font-weight-bold">Recent Student Registrations</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Student ID</th>
+                                        <th>Name</th>
+                                        <th>Program</th>
+                                        <th>Date Registered</th>
+                                        <th>Payment Status</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>ST2023-0124</td>
+                                        <td>John Smith</td>
+                                        <td>Computer Science</td>
+                                        <td>May 15, 2023</td>
+                                        <td><span class="status-badge bg-success text-white">Paid</span></td>
+                                        <td><button class="btn btn-sm btn-primary">View</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>ST2023-0125</td>
+                                        <td>Sarah Johnson</td>
+                                        <td>Business Admin</td>
+                                        <td>May 16, 2023</td>
+                                        <td><span class="status-badge bg-warning text-dark">Pending</span></td>
+                                        <td><button class="btn btn-sm btn-primary">View</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>ST2023-0126</td>
+                                        <td>Michael Chen</td>
+                                        <td>Electrical Eng</td>
+                                        <td>May 17, 2023</td>
+                                        <td><span class="status-badge bg-danger text-white">Overdue</span></td>
+                                        <td><button class="btn btn-sm btn-primary">View</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>ST2023-0127</td>
+                                        <td>Emily Wilson</td>
+                                        <td>Data Science</td>
+                                        <td>May 18, 2023</td>
+                                        <td><span class="status-badge bg-success text-white">Paid</span></td>
+                                        <td><button class="btn btn-sm btn-primary">View</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-
-@endsection
+    @endsection

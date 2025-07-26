@@ -17,7 +17,7 @@
 
 <!-- Hero Section -->
 <section class="courses-hero mb-5 custom-padding" style="background-image: url(images/hero-bg.png);">
-    <div class="container">
+    <div class="container mt-4 py-5">
         <h1 class="display-4 font-weight-bold mb-3 text-white">Our Engineering Programs Courses</h1>
         <p class="lead text-white">West Yangon Technological University offers 11 specialized engineering departments with modern facilities and industry-focused curriculum.</p>
     </div>
@@ -262,9 +262,3 @@
         });
     });
 </script>
-
-@include('include.footer')
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-        crossorigin="anonymous"></script>

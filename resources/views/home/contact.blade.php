@@ -4,7 +4,7 @@
 <!-- content -->
 <!-- <div class="container"> -->
 <section class="main custom-padding" style="background-image: url(images/hero-bg.png);">
-    <div class="container mt-4">
+    <div class="container mt-4 py-5">
         <h1 class="text-center"></h1>
         <div class="row g-4 mt-3">
             <!-- Contact Form -->

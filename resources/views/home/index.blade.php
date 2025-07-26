@@ -15,10 +15,10 @@
                     to enhance their intellectual, innovation, physical, social, emotional, spiritual,
                     and technological growth so that they may realize their power for good engineering
                     as citizens</p>
-                <a href="newstu_form.php" class="main-login1" style="border-radius: 5px;">For New Students - Apply
-                    Now</a><br>
-                <a href="oldstu_form.php" class="main-login2" style="border-radius: 5px;">For Old Students - Apply
-                    Now</a>
+                <a href="newstu_form.php" class="main-login1" style="border-radius: 5px;"><b>For New Students - Apply
+                    Now</b></a><br>
+                <a href="oldstu_form.php" class="main-login2" style="border-radius: 5px;"><b>For Old Students - Apply
+                    Now</b></a>
             </div>
             <!--img-->
             <div class="home-img" style="width: 500px;">

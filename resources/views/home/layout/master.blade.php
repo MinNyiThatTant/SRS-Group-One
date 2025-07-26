@@ -80,7 +80,7 @@
 
     <!--footer------------->
     <footer>
-        <p>Copyright (C) - <span id="year"></span> | Developed By <a href="#">e-Service (Group-1) </a> </p>
+        <p>Copyright (C) - <span id="year"></span> | Developed <span class="text-danger"><i class="bi bi-heart-fill icon-mid"></i></span> By <a href="#">e-Service (Group-1) </a> </p>
     </footer>
 
 

@@ -90,18 +90,21 @@
                         </li>
                         <li class="sidebar-item has-sub">
                             <a href="{{ route('globals.index') }}" class='sidebar-link'>
-                                <i class="bi bi-grid-fill"></i>
+                                <i class="bi bi-people-fill"></i>
                                 <span>Users</span>
                             </a>
 
                             <ul class="submenu ">
                                 <li class="submenu-item ">
-                                    <a href="{{ route('globals.create') }}" class="submenu-link">Create User</a>
+                                    <a href="{{ route('globals.create') }}" class="submenu-link">Create sub-admin</a>
 
                                 </li>
-
                                 <li class="submenu-item  ">
-                                    <a href="{{ route('globals.list') }}" class="submenu-link">User List</a>
+                                    <a href="{{ route('globals.list') }}" class="submenu-link">Teacher List</a>
+
+                                </li>
+                                <li class="submenu-item  ">
+                                    <a href="{{ route('globals.list') }}" class="submenu-link">Student List</a>
 
                                 </li>
                             </ul>
