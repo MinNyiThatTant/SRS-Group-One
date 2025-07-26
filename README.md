@@ -9,7 +9,7 @@ SRS is a web-based application designed to streamline the process of student reg
 - To provide a user-friendly interface that allows students to register for courses, update their personal information, and track their academic progress. 
 - For administrators, SRS offers tools to manage departments, courses, and student registrations efficiently.
 
-### Key Features
+<!-- ### Key Features
 
 1. **User -Friendly Interface**: The system is designed with an intuitive interface that simplifies the registration process for students. It provides clear navigation and easy access to necessary information.
 
@@ -25,7 +25,7 @@ SRS is a web-based application designed to streamline the process of student reg
 
 7. **Class Scheduling**: Administrators can create and manage class schedules, ensuring that students are informed about when and where their classes will take place.
 
-8. **Reporting**: Reporting features allow administrators to generate reports on student registration statistics, and financial status.
+8. **Reporting**: Reporting features allow administrators to generate reports on student registration statistics, and financial status. -->
 
 <!-- ### Benefits
 
