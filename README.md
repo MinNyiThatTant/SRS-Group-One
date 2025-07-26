@@ -1,4 +1,4 @@
-# 🧑‍🎓Student Registration System(SRS) created by E-service-Group(1/2025)
+## 🧑‍🎓Student Registration System(SRS) created by E-service-Group(1/2025)
 
 SRS is a web-based application designed to streamline the process of student registration and course management for Technological University targeting WYTU(sample).
 
@@ -8,9 +8,9 @@ SRS is a web-based application designed to streamline the process of student reg
 - To provide a user-friendly interface that allows students to register for courses, update their personal information, and track their academic progress. 
 - For administrators, SRS offers tools to manage departments, courses, and student registrations efficiently.
 
-# 🛠️ Laravel Implementation
+## 🛠️ Laravel Implementation
 
-## 📦 Contents
+### 📦 Contents
 1. [Overview](#overview)
 2. [Features](#features)
 3. [Installation](#installation)
