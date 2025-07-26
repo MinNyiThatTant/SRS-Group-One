@@ -48,31 +48,36 @@ SRS built with Laravel framework that handles both new and old student registrat
 - [PHP 8.0 or higher](https://www.php.net/downloads)
 - [Composer](https://getcomposer.org/download/)
 - [MySQL](https://dev.mysql.com/downloads/mysql/)
-- [npm](https://icons.getbootstrap.com/) //(node_module for bootstrap theme & icons)
+- [npm](https://icons.getbootstrap.com/) (node_module for bootstrap theme & icons)
 ```bash
 npm i bootstrap-icons
+```
 
 ### Installation Steps
 
 1. **Install Laravel Framework**
 ```bash
 composer global require laravel/installer
-
+```
 - go to your project directory and run artisan
 
 2. **If you need dependencies**
 ```bash
 composer install
 npm install
+```
 
 3. **Generate artisan key**
 ```bash
 php artisan key:generate
+```
 
 4. **Run Migration**
 ```bash
 php artisan migrate
+```
 
 5. **To serve your project**
 ```bash
 php artisan serve
+```
