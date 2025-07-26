@@ -37,12 +37,12 @@
             </label>
             <ul class="menu" style="border-radius: 5px;">
                 <li><a href="readme.html">အသုံးပြုနည်း</a></li>
-                <li><a href="index.php">Home</a></li>
+                <li><a href="{{route('home.index')}}">Home</a></li>
                 <li><a href="{{route('home.department')}}">Departments</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">University-Info</a></li>
-                <li><a href="#">Courses</a></li>
-                <li><a href="contact.php">Contact</a></li>
+                <li><a href="{{route('home.univ-info')}}">University-Info</a></li>
+                <li><a href="{{route('home.courses')}}">Courses</a></li>
+                <li><a href="{{route('home.contact')}}">Contact</a></li>
 
 
                 <li><a class="active" href="login.php" onclick="document.getElementById('id01').style.display='block'"

@@ -13,4 +13,16 @@ class HomeController extends Controller
     public function department(){
         return view('home.department');
     }
+
+    public function courses(){
+        return view('home.courses');
+    }
+
+    public function univ(){
+        return view('home.univ-info');
+    }
+
+    public function contact(){
+        return view('home.contact');
+    }
 }
