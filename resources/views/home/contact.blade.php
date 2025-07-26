@@ -46,9 +46,4 @@
         </div>
         
     </div>
-
 </section>
-
-
-
-@include('include.footer')
