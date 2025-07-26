@@ -2,49 +2,8 @@
 
 @section('content')
 
-
 <section class="main" style="background-image: url(images/hero-bg.png);">
-
-        <nav>
-            <a href="#" class="logo">
-                <img src="images/logo.png" width="320px" />
-            </a>
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label class="menu-icon" for="menu-btn">
-                <span class="nav-icon"></span>
-            </label>
-            <ul class="menu" style="border-radius: 5px;">
-                <li><a href="readme.html">အသုံးပြုနည်း</a></li>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="#">Departments</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">University-Info</a></li>
-                <li><a href="#">Courses</a></li>
-                <li><a href="contact.php">Contact</a></li>
-
-
-
-                
-                <!-- Admin user is not logged in -->
-                <li><a class="active" href="login.php" onclick="document.getElementById('id01').style.display='block'"
-                        style="width:auto; border-radius: 5px; cursor: pointer;">Login</a></li>
-                
-                </li>
-            </ul>
-            <div class="btn-group" role="group">
-                <a href="?lang=en" class="btn btn-sm btn-primary">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/20px-Flag_of_the_United_Kingdom.svg.png"
-                        alt="English" class="flag-icon" title="English">
-                </a>
-                <a href="?lang=mm" class="btn btn-sm btn-primary">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/20px-Flag_of_Myanmar.svg.png"
-                        alt="မြန်မာ" class="flag-icon" title="မြန်မာ">
-                </a>
-            </div>
-        </nav>
-
-
-        <!--main-content-->
+<!--main-content-->
         <div class="home-content">
 
             <!--text-->
@@ -76,6 +35,7 @@
         <span class="scroll">Scroll-me</span>
 
     </section>
+
 
 
     <!--services----------------------->

@@ -8,10 +8,11 @@ use App\Http\Controllers\GlobalController;
 use App\Http\Controllers\HomeController;
 
 Route::get('/', function () {
-    return view('admins.globals.index');
+    return view('home.index');
 });
 
 Route::get('home',[HomeController::class, 'home'])->name('home.index');
+Route::get('department',[HomeController::class, 'department'])->name('home.department');
 
 //Global admin
 Route::get('admin', [GlobalController::class, 'dashboard'])->name('globals.index');
