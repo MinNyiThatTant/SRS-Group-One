@@ -4,10 +4,13 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GlobalController;
 use App\Http\Controllers\HomeController;
 
+//main
 Route::get('/', function () {
     return view('home.index');
 });
+//end main
 
+//home
 Route::get('home',[HomeController::class, 'home'])->name('home.index');
 Route::get('department',[HomeController::class, 'department'])->name('home.department');
 Route::get('courses',[HomeController::class, 'courses'])->name('home.courses');
@@ -41,11 +44,14 @@ Route::get('univ-info', function() {
 
 
 Route::get('contact',[HomeController::class, 'contact'])->name('home.contact');
+Route::get('about', [HomeController::class, 'about'])->name('home.about');
+//end home
 
-//Global admin
+
+//admin
 Route::get('admin', [GlobalController::class, 'dashboard'])->name('globals.index');
 Route::get('create', [GlobalController::class, 'create'])->name('globals.create');
 Route::get('list', [GlobalController::class, 'list'])->name('globals.list');
-
+//end admin
 
 

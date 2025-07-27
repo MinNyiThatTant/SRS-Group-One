@@ -36,13 +36,13 @@
                 <span class="nav-icon"></span>
             </label>
             <ul class="menu" style="border-radius: 5px;">
-                <li><a href="readme.html">အသုံးပြုနည်း</a></li>
                 <li><a href="{{route('home.index')}}">Home</a></li>
                 <li><a href="{{route('home.department')}}">Departments</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="{{route('home.about')}}">About</a></li>
                 <li><a href="{{route('home.univ-info')}}">University-Info</a></li>
                 <li><a href="{{route('home.courses')}}">Courses</a></li>
                 <li><a href="{{route('home.contact')}}">Contact</a></li>
+                <li><a href="{{route('globals.index')}}">Admin</a></li>
 
 
                 <li><a class="active" href="login.php" onclick="document.getElementById('id01').style.display='block'"
@@ -77,10 +77,46 @@
     </div>
 
 
-
-    <!--footer------------->
-    <footer>
-        <p>Copyright (C) - <span id="year"></span> | Developed <span class="text-danger"><i class="bi bi-heart-fill icon-mid"></i></span> By <a href="#">e-Service (Group-1) </a> </p>
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5>Student Registration System (SRS)</h5>
+                    <p class="mb-0 text-white">Streamlining educational administration <span id="year"></span>.</p>
+                </div>
+                <div class="col-md-2 mb-3 mb-md-0">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="{{route('home.index')}}" class="text-white">Home</a></li>
+                        <li><a href="{{route('home.department')}}" class="text-white">Departments</a></li>
+                        <li><a href="{{route('home.about')}}" class="text-white">About</a></li>
+                        <li><a href="{{route('home.univ-info')}}" class="text-white">University-Info</a></li>
+                        <li><a href="{{route('home.courses')}}" class="text-white">Courses</a></li>
+                        <li><a href="{{route('home.contact')}}" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <h5>Contact</h5>
+                    <address>
+                        No.(5) Main Rd., Ah Pyin Padan Village,<br>
+                        Hlaing Thar Yar, Yangon, Myanmar.<br>
+                        <a href="mailto:info@wytu.edu.mm" class="text-white">info@wytu.edu.mm</a>
+                    </address>
+                </div>
+                <div class="col-md-3">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+                    <a href="https://wytu.edu.mm/" target="_blank" class="text-white me-2"><i class="bi bi-globe-americas"></i></a>
+                </div>
+            </div>
+            <hr class="my-3">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p style="color: white;">Copyright (C) - <span id="year"></span> | Developed <span class="text-danger"><i class="bi bi-heart-fill icon-mid"></i></span> By <a href="#" style="color: white;"><b>e-Service (Group-1)</b> </a> </p>
+                </div>
+            </div>
+        </div>
     </footer>
 
 

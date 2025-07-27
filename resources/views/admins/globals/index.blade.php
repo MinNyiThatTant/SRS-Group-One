@@ -3,10 +3,10 @@
 @section('content')
     <div class="row">
         <!-- Students Panel -->
-        <div class="col-xs-12 col-md-6 col-lg-4">
-            <div class="card text-white bg-primary mb-3">
+        <div class="col-xs-12 col-md-6 col-lg-4 mb-4">
+            <div class="card text-white bg-primary mb-3 course-card">
                 <div class="card-header">Students</div>
-                <img src="{{ asset('images/stu.jpg') }}" class="card-img-top" alt="Students">
+                <img src="{{ asset('images/stu.jpg') }}" class="card-img-top" alt="Students" style="height: 200px; object-fit: cover;">
                 <div class="card-body">
                     <h5 class="card-title">120</h5>
                     <p class="card-text">Total Students Registered</p>
@@ -15,10 +15,10 @@
         </div>
 
         <!-- Comments Panel -->
-        <div class="col-xs-12 col-md-6 col-lg-4">
-            <div class="card text-white bg-warning mb-3">
+        <div class="col-xs-12 col-md-6 col-lg-4 mb-4">
+            <div class="card text-white bg-warning mb-3 course-card">
                 <div class="card-header">Comments</div>
-                <img src="{{ asset('images/comment.jpg') }}" class="card-img-top" alt="Comments">
+                <img src="{{ asset('images/comment.jpg') }}" class="card-img-top" alt="Comments" style="height: 200px; object-fit: cover;">
                 <div class="card-body">
                     <h5 class="card-title">52</h5>
                     <p class="card-text">Total Comments Received</p>
@@ -27,10 +27,10 @@
         </div>
 
         <!-- Active Students Panel -->
-        <div class="col-xs-12 col-md-6 col-lg-4">
-            <div class="card text-white bg-success mb-3">
+        <div class="col-xs-12 col-md-6 col-lg-4 mb-4">
+            <div class="card text-white bg-success mb-3 course-card">
                 <div class="card-header">Active Students</div>
-                <img src="{{ asset('images/act-stu.jpg') }}" class="card-img-top" alt="Active Students">
+                <img src="{{ asset('images/act-stu.jpg') }}" class="card-img-top" alt="Active Students" style="height: 200px; object-fit: cover;">
                 <div class="card-body">
                     <h5 class="card-title">24</h5>
                     <p class="card-text">Currently Active Students</p>
@@ -39,10 +39,10 @@
         </div>
 
         <!-- Views Panel -->
-        <div class="col-xs-12 col-md-6 col-lg-4">
-            <div class="card text-white bg-danger mb-3">
+        <div class="col-xs-12 col-md-6 col-lg-4 mb-4">
+            <div class="card text-white bg-danger mb-3 course-card">
                 <div class="card-header">Views</div>
-                <img src="{{ asset('images/view.jpg') }}" class="card-img-top" alt="Views">
+                <img src="{{ asset('images/view.jpg') }}" class="card-img-top" alt="Views" style="height: 200px; object-fit: cover;">
                 <div class="card-body">
                     <h5 class="card-title">25.2k</h5>
                     <p class="card-text">Total Page Views</p>
@@ -51,10 +51,10 @@
         </div>
 
         <!-- Total Courses Panel -->
-        <div class="col-xs-12 col-md-6 col-lg-4">
-            <div class="card text-white bg-info mb-3">
+        <div class="col-xs-12 col-md-6 col-lg-4 mb-4">
+            <div class="card text-white bg-info mb-3 course-card">
                 <div class="card-header">Total Courses</div>
-                <img src="{{ asset('images/tot-course.jpg') }}" class="card-img-top" alt="Courses">
+                <img src="{{ asset('images/tot-course.jpg') }}" class="card-img-top" alt="Courses" style="height: 200px; object-fit: cover;">
                 <div class="card-body">
                     <h5 class="card-title">30</h5>
                     <p class="card-text">Courses Available</p>
@@ -63,17 +63,16 @@
         </div>
 
         <!-- Total Instructors Panel -->
-        <div class="col-xs-12 col-md-6 col-lg-4">
-            <div class="card text-white bg-secondary mb-3">
+        <div class="col-xs-12 col-md-6 col-lg-4 mb-4">
+            <div class="card text-white bg-secondary mb-3 course-card">
                 <div class="card-header">Total Teacher</div>
-                <img src="{{ asset('images/teacher.jpg') }}" class="card-img-top" alt="Instructors">
+                <img src="{{ asset('images/teacher.jpg') }}" class="card-img-top" alt="Instructors" style="height: 200px; object-fit: cover;">
                 <div class="card-body">
                     <h5 class="card-title">15</h5>
                     <p class="card-text">Teachers</p>
                 </div>
             </div>
         </div>
-
 
         <!-- Recent Activity Section -->
         <div class="row">
