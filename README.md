@@ -41,7 +41,7 @@ SRS built with Laravel framework that handles both new and old student registrat
    - Payment records
    - Financial status monitoring
 
-## Installation <a name="installation"></a>
+## 💻 Installation <a name="installation"></a>
 
 ### 🧑‍💻 Prerequisites
 - [PHP 8.0 or higher](https://www.php.net/downloads)
