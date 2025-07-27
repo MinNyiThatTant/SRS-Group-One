@@ -47,6 +47,7 @@ SRS built with Laravel framework that handles both new and old student registrat
 - [PHP 8.0 or higher](https://www.php.net/downloads)
 - [Composer](https://getcomposer.org/download/)
 - [MySQL](https://dev.mysql.com/downloads/mysql/)
+- [XAMPP](https://www.techspot.com/downloads/7358-xampp.html)
 - [npm](https://icons.getbootstrap.com/) (if need, node_module for bootstrap theme & icons)
 ```bash
 npm i bootstrap-icons
