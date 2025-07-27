@@ -11,9 +11,9 @@ SRS is a web-based application designed to streamline the process of student reg
 ## 🛠️ Laravel Implementation
 
 ### 📦 Contents
-1. [Overview](#overview)
-2. [Features](#features)
-3. [Installation](#installation)
+1. 📢[Overview](#overview)
+2. ℹ️[Features](#features)
+3. 💻[Installation](#installation)
 <!-- 4. [Database Schema](#database-schema) -->
 <!-- 5. [Implementation Steps](#implementation-steps) -->
 <!-- 6. [Additional Functions](#additional-functions) -->
