@@ -43,7 +43,7 @@ SRS built with Laravel framework that handles both new and old student registrat
 
 ## 💻 Installation <a name="installation"></a>
 
-### 🧑‍💻 Prerequisites
+### ⚙️ Prerequisites
 - [PHP 8.0 or higher](https://www.php.net/downloads)
 - [Composer](https://getcomposer.org/download/)
 - [MySQL](https://dev.mysql.com/downloads/mysql/)
